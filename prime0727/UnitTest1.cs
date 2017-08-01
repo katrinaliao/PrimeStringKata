@@ -15,10 +15,8 @@ namespace prime0727
                 return true;
             }
 
-            //列出因數
             var factors = FactorsList(inputString.Length);
 
-            //拆解字串 列出組合
             foreach (var facStr in factors)
             {
                 var strElement = SeparateStringByFactorLength(inputString, facStr);
